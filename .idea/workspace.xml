@@ -2,133 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35f89cb-8a3f-48c8-8a02-f12788f9711f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cnclient/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/oneshot-pubsub.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/oneshot-pubsub_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/pubsub.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/pubsub_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/sequence-broadcast.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/sequence-broadcast_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed25519/ed25519.go" beforeDir="false" afterPath="$PROJECT_DIR$/ed25519/ed25519.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed25519/extra25519/extra25519.go" beforeDir="false" afterPath="$PROJECT_DIR$/ed25519/extra25519/extra25519.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed25519/extra25519/extra25519_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ed25519/extra25519/extra25519_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed25519/marshal_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ed25519/marshal_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hkpfront/hkpfront.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpfront/httpfront.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/coname-server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/deploy/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/deploy/make_config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/dkim/dkim.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/dkim/dkim_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/kv/kv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/kv/leveldbkv/leveldbkv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/kv/logkv/logkv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/kv/range.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/kv/tracekv/tracekv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/lookup.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/merkletree/merkletree.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/merkletree/merkletree_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/merkletree/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/oidc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/oidc/token.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/oidc/token_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/oidc/verify.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/oidc_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/kvlog/kvlog.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/kvlog/leveldblog_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/nettestutil/nettestutil.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/proto/clean.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/proto/generate.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/proto/raftrpc.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/proto/raftrpc.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/raftlog.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/raftlog/raftlog_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/replication/replication.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/saml.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/saml/saml.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/saml/saml_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/saml/test.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/saml/test.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/saml_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/server_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/table.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/update.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyserver/verify.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lookup.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merkle.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/policy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/AuthorizationPolicy.pr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/AuthorizationPolicypr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/Entry.pr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/Entrypr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/EpochHead.pr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/EpochHeadpr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/Profile.pr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/Profilepr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/SignedEntryUpdate.pr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/SignedEntryUpdatepr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/TimestampedEpochHead.pr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/TimestampedEpochHeadpr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/benchmarks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/clean.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/client.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/client.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/clientpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/config.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/config.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/configpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/duration.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/duration.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/duration.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/duration_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/durationpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/encoded.go.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/encoded_test.go.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/generate.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyid.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyid_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyserverconfig.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyserverconfig.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyserverconfigpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyserverlocal.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyserverlocal.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/keyserverlocalpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/marshal.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/protoc-gen-coname/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/prune.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/replication.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/replication.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/replicationpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/time.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/time_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/timestamp.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/timestamp.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/timestamppb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/tlsconfig.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/tlsconfig.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/tlsconfig.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/tlsconfig_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/tlsconfigpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifier.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifier.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierconfig.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierconfig.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierconfigpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierlocal.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierlocal.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierlocalpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/verifierpb_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifier/deploy/gen-config/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifier/deploy/gen-csr-id/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifier/deploy/sign-csr/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifier/table.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifier/verifier.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verifier/verifierserver/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrf/vrf.go" beforeDir="false" afterPath="$PROJECT_DIR$/vrf/vrf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,18 +14,19 @@
     <session id="-1074248721">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="5" />
+          <entry key="go" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="5" />
+          <entry key="Go" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -200,13 +75,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ed25519/marshal_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
                 <element signature="e#17#107#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vrf/vrf_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -223,6 +107,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>yahoo</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="$USER_HOME$/golang/go" />
   <component name="Git.Settings">
@@ -313,6 +202,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3304721" />
@@ -382,6 +272,13 @@
           <folding>
             <element signature="e#17#107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrf/vrf_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
         </state>
       </provider>
     </entry>
